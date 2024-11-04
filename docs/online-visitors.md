@@ -51,7 +51,7 @@ This is preferred way to send an invitation to chat. As we won't create a dummy 
 * `Skip bot` - chat will skip a bot and will go directly into pending state. If `Assign the chat to me if the visitor replies` is checked chat will be assigned to operator who send an invitation.
   * This will happen even if operator become offline after sending an invitation.
 
-In summary, chat will always be assigned first to operator who send an invitation independently on his `onfline`/`offline` and `visibility` status.
+In summary, chat will always be assigned first to operator who send an invitation independently on his `online`/`offline` and `visibility` status.
 
 ### Sending invitation and start a chat
 
